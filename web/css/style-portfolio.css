@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Sintony:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Source+Sans+Pro:300,400,400i,600,600i,700,700i');
+body{
+    margin:0;
+    width: 100%;
+    background: #f3f3f3;
+}
+.header{
+    background: url('../img/bgpor.jpg') 50% no-repeat;
+    background-size:cover;
+    padding:0 0 50px;
+}
+.header-nav{
+    padding: 30px 0;
+    background: linear-gradient(to top, rgba(38,38,38,0), rgba(38,38,38,0.8));
+    overflow: hidden;
+    margin-bottom: 80px;
+
+}
+.header-logo{
+    margin-left: 5%;
+    font-family: 'Dancing Script';
+    color:  #ffffff !important;
+    font-size: 50px !important;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 25px;
+    opacity: 0.8;
+    cursor:pointer;
+
+}
+.header-logo:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.nav-item{
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+.header-menu-block{
+    margin-right: 5%;
+}
+.nav-item a{
+    box-sizing: border-box;
+    font-family: Sintony;
+    color:  #ffffff !important;
+    font-weight: 700;
+    line-height: 25px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor:pointer;
+    opacity: 0.8;
+    padding: 10px 15px;
+}
+
+.nav-item a:hover{
+    text-decoration: none;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    padding: 9px 14px;
+
+}
+.header-menu-icon-pic{
+    width: 20px;
+    height: 20px;
+}
+.header-menu-icon{
+    margin-right: 5%;
+    float:right;
+    cursor: pointer;
+    border: none !important;
+}
+.header-menu-icon:focus{
+    outline: none;
+}
+.header-menu-icon:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+.active a{
+    border-radius: 50px;
+    border-width: 1px;
+    border-color:  #c3c3c3;
+    border-style: solid;
+}
+.active a:hover{
+    padding: 10px 15px;
+}
+
+.portfolio{
+}
+
+.portfolio-title{
+    color:  #f3f3f3;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    opacity: 0.8;
+    margin:0 0 25px;
+    font-family: Sintony;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.portfolio-title2{
+    background: radial-gradient( rgba(38,38,38,0.6),rgba(38,38,38,0.4), rgba(38,38,38,0));
+    border-radius: 50px;
+    width:60%;
+    margin:0 auto;
+    font-family: Sintony;
+    color:  #f3f3f3;
+    opacity: 0.9;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding: 10px 20px;
+
+}
+
+.header__scroll{
+    clear:both;
+    display: block;
+    margin:0 auto;
+    width: 15px;
+    height:15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #f3f3f3;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 20px 22px;
+    box-sizing: unset;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.header__scroll:hover{
+    border-radius: 100px;
+    opacity:0.7;
+    background: #c3c3c3;
+    color: #ffffff;
+    text-decoration: none;
+}
+.photos{
+    background:  rgba(38,38,38,0.1);
+}
+.button-group{
+    text-align: center;
+    margin: 0 0 60px;
+}
+
+.button{
+    text-decoration: none;
+    border: none;
+    background: none;
+    font-family: Sintony;
+    color:  #81868e;
+    font-weight: 700;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+    cursor:pointer;
+    opacity: 0.8;
+    padding: 10px 15px;
+    outline: none;
+    display: inline-block;
+}
+.button:hover{
+    outline: none;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color:  #81868e;
+    border-style: solid;
+    padding: 9px 14px;
+}
+.button:focus, .button:active{
+    outline: none;
+}
+
+.photos{
+
+    padding: 30px 0;
+}
+.is-checked{
+    border-color: #000000;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 9px 14px;}
+.is-checked:hover{
+}
+
+.grid{
+    width: 80%;
+    margin:0 auto;
+}
+.element-item{
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    float: left;
+    top:0;
+    width:24.5%;
+    margin-top: 8px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.contact{
+    background: url('../img/back1.jpg') 50% no-repeat;
+    background-size: cover;
+    padding: 70px 0 90px;
+    text-align: center;
+}
+
+.contact-title{
+    font-family: Sintony;
+    color:  #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom:30px;
+}
+.contact-but{
+    text-align: center;
+    font-family: Sintony;
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 12px;
+    text-decoration: none;
+    cursor:pointer;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+}
+
+.contact-but:hover{
+    background: #fff;
+    opacity: 0.6;
+    color:  #81868e;
+    text-decoration: none;
+}
+
+
+.footer{
+    padding: 50px 0 50px;
+    text-align:center;
+    background:  rgba(38,38,38,0.2);
+
+}
+
+
+
+.footer__aim{
+    font-family: 'Sintony';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    display: block;
+    color: #ffffff
+
+}
+
+.footer__nav{
+    text-align:center;
+}
+.footer__item{
+    color:#fff;
+    background-color:#3b5998;
+    border-radius: 50px;
+    cursor:pointer;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.footer__item--1{
+    padding: 5px 9px;
+}
+
+.footer__item--3{
+    background-color:#0e76a8;
+    padding: 5px 7px;
+}
+.footer__item--4{
+    background-color:#3f729b;
+    padding: 5px 7px;
+}
+
+.footer__item:hover{
+    color:#3d4fa1;
+    background-color: rgba(38,38,38,0.6)
+
+}
+
+.header__logo--foot{
+    display: block;
+    font-family: Dancing Script;
+    color:  #ffffff;;
+    font-size: 50px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 30px;
+    opacity: 0.8;
+    cursor:pointer;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header__logo--foot:hover{
+    opacity: 0.9;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+/* BRAKEPOINTS FOR RESPONSIVE  HEADER STYLES */
+@media only screen and (max-width: 467px) {
+    .header-logo {
+        font-size: 30px !important;
+    }
+    .myslider-item{
+        width: 200px !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .contact-title{
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 991px) {
+    .nav-item{
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 25px !important;
+    }
+    .button{
+        width: 70%;
+        margin: 0 auto;
+
+    }
+    .element-item{
+        width: 49%;
+    }
+    .header-nav{
+        margin-bottom: 100px !important;
+    }
+    .portfolio-title2{
+        width: 100%;
+    }
+    .header__content{
+        float:none;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .header__scroll{
+        color:#7b7b7b;
+    }
+
+}
+@media only screen and (max-width: 1199px) {
+    .header-logo{
+        margin-right: 18% !important;
+    }
+    .myslider-item{
+        width: 300px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+}
+@media only screen and (min-width: 1200px) {
+    .header-logo{
+        margin-right: 30% !important;
+    }
+
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 30px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    width: 450px !important;
+    margin: auto;
+    display: block;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal {
+        padding-top: 50px;
+    }
+    .modal-content {
+        width: 80%;
+    }
+}
